@@ -9,7 +9,7 @@ import { Overall } from './sections/Overall';
 import { TechChapter } from './sections/TechChapter';
 import { ConnectSessions } from './sections/ConnectSessions';
 export const MajorSection = ({ text }: any) => {
-    return <Typography variant="h4" color="text.secondary" gutterBottom
+    return <Typography variant="h4" color="teal" gutterBottom
     // textAlign={'left'}
     >
         {text}

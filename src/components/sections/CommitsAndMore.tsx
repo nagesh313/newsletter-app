@@ -24,9 +24,9 @@ export const CommitsAndMore = () => {
     console.log(useStyles);
     return <Box sx={{ mb: 2, p: 2 }}>
         <MajorSection text={"Commits and More"}></MajorSection>
-        <Card sx={{ mb: 2 }} elevation={4}>
+        <Card sx={{ mb: 2 }} elevation={4} className='pattern-1'>
             <CardContent>
-                <Typography sx={{ fontSize: 16 }} color="text.secondary" gutterBottom>
+                <Typography sx={{ fontSize: 16 }} color="teal" gutterBottom>
                     People Contributing
                 </Typography>
                 <Typography variant="h4" color="text.secondary">
@@ -34,9 +34,9 @@ export const CommitsAndMore = () => {
                 </Typography>
             </CardContent>
         </Card>
-        <Card sx={{ mb: 2 }} elevation={4}>
+        <Card sx={{ mb: 2 }} elevation={4} className='pattern-2'>
             <CardContent>
-                <Typography sx={{ fontSize: 16 }} color="text.secondary" gutterBottom>
+                <Typography sx={{ fontSize: 16 }} color="teal" gutterBottom>
                     Commits
                 </Typography>
                 <Typography variant="h4" color="text.secondary">
@@ -44,9 +44,9 @@ export const CommitsAndMore = () => {
                 </Typography>
             </CardContent>
         </Card>
-        <Card sx={{ mb: 2 }} elevation={4}>
+        <Card sx={{ mb: 2 }} elevation={4} className='pattern-3'>
             <CardContent>
-                <Typography sx={{ fontSize: 16 }} color="text.secondary" gutterBottom>
+                <Typography sx={{ fontSize: 16 }} color="teal" gutterBottom>
                     Active Repos
                 </Typography>
                 <Typography variant="h4" color="text.secondary">

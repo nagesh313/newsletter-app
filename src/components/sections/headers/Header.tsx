@@ -21,7 +21,7 @@ export const Header = () => {
                             p: { md: 6 },
                         }}
                     >
-                        <Typography component="h1" variant="h3" color="inherit" gutterBottom>
+                        <Typography component="h1" variant="h3" color="black" gutterBottom>
                             Product Enablement Engineering Newsletter - <span contentEditable>&lt;Month&gt;</span>
                         </Typography>
                     </Box>
